@@ -9,9 +9,15 @@ const port = 4000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use(cors({
-  origin:["http://localhost:3000/youtube-frontend" , "https://youtube-project.onrender.com"]
-}));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000/youtube-frontend",
+      "https://youtube-project.onrender.com",
+      "https://youtube-project-4rkt.onrender.com",
+    ],
+  })
+);
 
 // Connect to DATABASE
 //Create a db in your mongodb account
