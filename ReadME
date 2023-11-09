@@ -1,0 +1,14 @@
+ How to use this Node Server
+ 
+
+1. Clone the code from github and run "npm install".
+
+2. To create database please install mongodb in local machine
+
+3. Create a DB in mongodb and enter it's connection string in the src/index.js file in the mention place.
+
+4. Now run index.js this will Start the Server.
+
+5. Test the API in Postman.
+
+* (Install nodemon not mandatory)
