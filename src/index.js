@@ -11,12 +11,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000/youtube-frontend",
-      "https://youtube-project.onrender.com",
-      "https://youtube-project-4rkt.onrender.com",
-      "https://youtube-project-frontend.onrender.com",
-    ],
+    origin: ["https://youtube-project-frontend.onrender.com"],
   })
 );
 

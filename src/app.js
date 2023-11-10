@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 
-// * Only Delete op is left
 const cors = require("cors");
 
 app.use(cors());
