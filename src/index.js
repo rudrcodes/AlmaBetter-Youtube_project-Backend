@@ -15,6 +15,7 @@ app.use(
       "http://localhost:3000/youtube-frontend",
       "https://youtube-project.onrender.com",
       "https://youtube-project-4rkt.onrender.com",
+      "https://youtube-project-frontend.onrender.com",
     ],
   })
 );
